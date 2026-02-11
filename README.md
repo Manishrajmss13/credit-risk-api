@@ -71,11 +71,6 @@ The project implements a **Random Forest** ensemble learning model that:
 - Provides feature importance rankings
 - Offers good generalization to unseen data
 
-### Hyperparameters:
-- `n_estimators`: 100 (number of trees)
-- `max_depth`: 15
-- `min_samples_split`: 5
-- `random_state`: 42
 
 ---
 
@@ -109,7 +104,7 @@ credit-risk-api/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/credit-risk-api.git
+git clone https://github.com/Manishrajmss13/credit-risk-api.git
 cd credit-risk-api
 ```
 
@@ -279,20 +274,11 @@ The response will show:
 
 ### Screenshots: Postman Testing
 
-> **[Screenshot 1: Postman Request Setup]**
-> 
-> Add a screenshot here showing:
-> - POST method selected
-> - URL entered: http://127.0.0.1:8000/predict
-> - Headers with Content-Type: application/json
-> - Request body with sample JSON
+> **<img width="894" height="515" alt="image" src="https://github.com/user-attachments/assets/dcdf9f27-5ca9-4a92-b5bd-3a92de5b1f8e" />
+**
 
-> **[Screenshot 2: Postman Response]**
-> 
-> Add a screenshot here showing:
-> - Response status: 200 OK
-> - Response body with prediction results
-> - Response time and size
+> **<img width="778" height="164" alt="image" src="https://github.com/user-attachments/assets/983be43e-2952-446c-8987-edfadb1495cf" />
+**
 
 ---
 
@@ -321,26 +307,15 @@ You'll see:
 
 ### Screenshots: Swagger UI Documentation
 
-> **[Screenshot 3: Swagger UI - Main Page]**
-> 
-> Add a screenshot here showing:
-> - Full Swagger documentation page
-> - All available endpoints listed
-> - Interactive /predict endpoint section
+> **<img width="1185" height="605" alt="image" src="https://github.com/user-attachments/assets/e7526c17-d4d8-4d82-b500-84b778a33018" />
+**
 
-> **[Screenshot 4: Swagger UI - Request/Response]**
-> 
-> Add a screenshot here showing:
-> - Sample request body with 20 features
-> - Response 200 with prediction results
-> - Response schema documentation
+> **<img width="1266" height="581" alt="image" src="https://github.com/user-attachments/assets/08d7e018-086d-4dfc-82ad-e4639d543216" />
+**
 
-> **[Screenshot 5: Swagger UI - Model Schema]**
-> 
-> Add a screenshot here showing:
-> - Pydantic schema definition
-> - All 20 feature types and descriptions
-> - Input validation rules
+
+> **<img width="1290" height="410" alt="image" src="https://github.com/user-attachments/assets/2ea5cd21-bdcc-45ce-a7bb-ee3cf4ec2c31" />
+**
 
 ---
 
@@ -367,51 +342,11 @@ python model/train.py
 
 The model training script outputs feature importance rankings and generates visualizations saved in `model/artifacts/`.
 
-### Screenshots: Feature Importance Analysis
 
-> **[Screenshot 6: Feature Importance Plot]**
-> 
-> Add a screenshot here showing:
-> - Bar chart of top 10 features
-> - Feature names on y-axis
-> - Importance scores on x-axis
-> - Visual ranking of predictive power
-
-> **[Screenshot 7: Feature Correlation Heatmap]**
-> 
-> Add a screenshot here showing:
-> - Correlation matrix heatmap
-> - Feature dependencies visualization
-> - Color-coded correlation strength
 
 ---
 
-## Screenshots
 
-### Screenshots Directory
-
-Create a `screenshots/` folder in your project root and add the following:
-
-```
-screenshots/
-├─ 01_postman_request_setup.png
-├─ 02_postman_response.png
-├─ 03_swagger_ui_main.png
-├─ 04_swagger_ui_request_response.png
-├─ 05_swagger_ui_schema.png
-├─ 06_feature_importance_plot.png
-└─ 07_feature_correlation_heatmap.png
-```
-
-### How to Add Screenshots
-
-1. Replace `[Screenshot X: ...]` placeholders above with actual image links
-2. Example format:
-   ```markdown
-   ![Postman Request Setup](screenshots/01_postman_request_setup.png)
-   ```
-
----
 
 ## Notes
 
@@ -468,7 +403,7 @@ This runs:
 
 ---
 
-## Project Roadmap
+## Project Roadmap (Future work)
 
 - [ ] Add authentication (JWT tokens)
 - [ ] Implement model versioning
@@ -499,12 +434,13 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact & Support
 
-- **Author:** [Your Name]
-- **Email:** your.email@example.com
-- **GitHub:** [@YourUsername](https://github.com/YourUsername)
+- **Author:** Manish Raj M S S
+- **Email:** mssmanishraj@gmail.com
+- **GitHub:** [@Manishrajmss13](https://github.com/Manishrajmss13)
 
 For issues and questions, please open a [GitHub Issue](https://github.com/Manishrajmss13/credit-risk-api/issues).
 
 ---
 
 **Last Updated:** February 2026
+
